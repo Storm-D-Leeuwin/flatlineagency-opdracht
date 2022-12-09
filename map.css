@@ -158,15 +158,15 @@ main {
 
     display: grid;
     grid-template-columns: repeat(auto-fill, 170px);
-    grid-template-rows: repeat(1, 280px);
-    grid-auto-rows: 280px;
+    grid-template-rows: repeat(1, 320px);
+    grid-auto-rows: 320px;
     grid-auto-flow: dense;
     gap: 30px;
 }
 
 .releases {
     display: grid;
-    grid-template-rows: 253.84px 60px;
+    grid-template-rows: 253.84px 66.16px;
     text-align: center;
 
     font-style: normal;
