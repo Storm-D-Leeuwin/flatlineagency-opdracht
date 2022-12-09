@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 2% 3.5%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.left-nav-section,
+.right-nav-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav-section {
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 201.44px;
+    height: 32px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: 0.07em;
+
+    color: #FFFFFF;
+}
+
+.nav-content {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.07em;
+    color: #868686;
+    padding-left: 90.6px;
+}
+
+.home {
+    padding-right: 31.6px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 100px 8px 18px;
+    gap: 10px;
+    background: #374151;
+    border-radius: 37px;
+
+    color: #868686;
+}
+
+main {
+    margin: 48px 50px 0 50px;
+}
+
+.explore {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.what {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 112.5%;
+    color: #868686;
+    margin-bottom: 24px;
+}
+
+.banner {
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    background-image: url(/spy_carousel\ 1.png);
+    border-radius: 25px;
+
+    margin-bottom: 42px;
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 25px;
+}
+
+.anime-text {
+    padding-top: 200px;
+    padding-left: 47px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.anime-text .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 64px;
+    color: #FFFFFF;
+    z-index: 1;
+    width: fill(571px);
+    height: Hug(64px);
+}
+
+.anime-text .description {
+    width: 571px;
+    height: 81px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.release {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.new-animes {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 170px);
+    grid-template-rows: repeat(1, 280px);
+    grid-auto-rows: 280px;
+    grid-auto-flow: dense;
+    gap: 30px;
+}
+
+.releases {
+    display: grid;
+    grid-template-rows: 253.84px 60px;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112.5%;
+    color: #FFFFFF;
+}
+
+.opImage {
+    background-image: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%), url(/img/One-piece\ 1.png);
+}
+
+.number{
+    padding-top: 220px;
+}
+
+.borutoImage {
+    background-image: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%), url(/img/boruto-naruto-next-generations\ 1.png);
+}
+
+.captainImage {
+    background-image: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%), url(/img/captsu_card\ 1.png);
+}
+
+.spyImage {
+    background-image: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%), url(/img/spy_card\ 1.png);
+}
+
+.shingekiImage {
+    background-image: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%), url(/img/attackontitan\ 1.png);
+}
+
+.aoashiImage {
+    background-image: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%), url(/img/aoashi_card\ 1.png);
+}
+
+.mini-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
